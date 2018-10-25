@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+
+    <AutoCompleteTextView
+        android:id="@+id/barradepesquisa"
+        android:layout_width="369dp"
+        android:layout_height="43dp"
+        android:hint="@string/search"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <ListView
+        android:id="@+id/listaDProdutos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/colorPrimaryDark"
+        />
+
+    <Button
+        android:id="@+id/btVoltarUm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_voltar" />
+
+
+</LinearLayout>

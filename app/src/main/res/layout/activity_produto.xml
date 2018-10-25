@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical"
+        tools:context=".produtoActivity"
+        >
+
+    <TextView
+       android:id="@+id/ProdutoSelecionado"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textStyle="bold"
+       android:textSize="18dp"
+
+        />
+
+        <TextView
+       android:id="@+id/textView"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/qtd" />
+
+    <EditText
+        android:id="@+id/quantidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/apN"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btSv" />
+
+    <TextView
+        android:id="@+id/Registro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textFontWeight="bold"
+        />
+
+    <Button
+        android:id="@+id/btExibirRegistros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_exibirregistro" />
+
+</LinearLayout>

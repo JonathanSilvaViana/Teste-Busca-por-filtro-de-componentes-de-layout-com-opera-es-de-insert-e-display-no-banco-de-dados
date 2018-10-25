@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">testeGigaServices</string>
+    <string name="bt1">Menu 1</string>
+    <string name="bt2">Menu 2</string>
+    <string name="bt3">Menu 3</string>
+    <string name="pgBusca">Produtos</string>
+    <string name="search">Search</string>
+    <string name="searchBt">Pesquisar</string>
+    <string name="bt_voltar">Voltar</string>
+    <string name="produtoActivity">Produto + ...</string>
+    <string name="qtd">Quantidade</string>
+    <string name="btSv">Salvar</string>
+    <string name="apN">Apenas números</string>
+    <string-array name="produtos_lista">
+        <item>Produto 1</item>
+        <item>Produto 2</item>
+        <item>Produto 3</item>
+        <item>Produto 4</item>
+        <item>Produto 5</item>
+    </string-array>
+
+    <string name="bt_exibirregistro">Exibir Registros</string>
+</resources>

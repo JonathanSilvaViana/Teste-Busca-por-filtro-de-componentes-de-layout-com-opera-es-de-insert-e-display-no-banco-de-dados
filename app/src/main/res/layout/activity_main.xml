@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="361dp"
+        android:layout_height="82dp"
+        android:resizeMode="horizontal"
+        android:text="@string/bt1"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="361dp"
+        android:layout_height="82dp"
+        android:resizeMode="horizontal"
+        android:text="@string/bt2"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="361dp"
+        android:layout_height="82dp"
+        android:resizeMode="horizontal"
+        android:text="@string/bt3"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+
+</LinearLayout>
+<!--</android.support.constraint.ConstraintLayout>-->
